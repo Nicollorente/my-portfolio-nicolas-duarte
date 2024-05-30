@@ -25,7 +25,7 @@ const Inicio = () => {
           oportunidades que me permitan hacerlo, al tiempo que trataré de
           alinearme completamente con los objetivos de la empresa.
         </div>
-        <a className="cv" href="/CV Nicolás Iñaki Duarte Front-End.pdf"  target="_blank" rel="noopener noreferrer">Por acá dejo mi cv</a>
+        <a className="cv" href="/CV Nicolás Iñaki Duarte Front-End.pdf"  target="_blank" rel="noopener noreferrer">Mi Curriculum Vitae</a>
       </div>
 
       <div className="avatar">
