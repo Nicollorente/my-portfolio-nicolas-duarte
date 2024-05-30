@@ -8,8 +8,8 @@ export default defineConfig({
       external: [
         '@fortawesome/react-fontawesome',
         '@fortawesome/free-solid-svg-icons',
-        '@fortawesome/free-brands-svg-icons',
-        'styled-components'
+        '@fortawesome/free-brands-svg-icons'
+      
       ],
     },
   },

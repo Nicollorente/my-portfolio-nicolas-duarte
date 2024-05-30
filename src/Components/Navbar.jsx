@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 // import { useSelector } from "react-redux";
 // import { useDispatch } from "react-redux";
-import HamburgerIcon from "./HamburgerIcon";
+// import HamburgerIcon from "./HamburgerIcon";
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
@@ -25,9 +25,9 @@ const Navbar = () => {
            <li><a href="#contacto"  onClick={handleClick}>Contacto</a></li>
         </ul>
       </nav>
-      <div className="icon-bar">
+      {/* <div className="icon-bar">
         <HamburgerIcon clicked={clicked} handleClick={handleClick} />
-      </div>
+      </div> */}
     </header>
   );
 };
