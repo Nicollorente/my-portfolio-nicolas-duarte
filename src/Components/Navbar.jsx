@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import { Divide as Hamburger } from 'hamburger-react'
 // import { useSelector } from "react-redux";
 // import { useDispatch } from "react-redux";
 // import HamburgerIcon from "./HamburgerIcon";
@@ -26,7 +25,6 @@ const Navbar = () => {
         </ul>
       </nav>
        <div className="icon-bar" >
-   <Hamburger  clicked={clicked} handleClick={handleClick} />
       </div> 
     </header>
   );
