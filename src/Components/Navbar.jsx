@@ -26,7 +26,7 @@ const Navbar = () => {
         </ul>
       </nav>
        <div className="icon-bar" >
-   <Hamburger  clicked={clicked} handleClick={handleClick} />
+   {/* <Hamburger  clicked={clicked} handleClick={handleClick} /> */}
       </div> 
     </header>
   );
