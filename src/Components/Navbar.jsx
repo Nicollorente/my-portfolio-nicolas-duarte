@@ -1,8 +1,11 @@
 import React from "react";
 import { useState } from "react";
+import { Icon } from "@chakra-ui/react"; 
+import { HamburgerIcon } from "@chakra-ui/icons"
 // import { useSelector } from "react-redux";
 // import { useDispatch } from "react-redux";
 // import HamburgerIcon from "./HamburgerIcon";
+
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
@@ -25,6 +28,7 @@ const Navbar = () => {
         </ul>
       </nav>
        <div className="icon-bar" >
+        <Icon as={HamburgerIcon}/>
       </div> 
     </header>
   );
