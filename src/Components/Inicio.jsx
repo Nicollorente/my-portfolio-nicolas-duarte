@@ -17,13 +17,6 @@ const Inicio = () => {
           experiencia, he tomado la decisión de reorientar mi carrera
           profesional con el ánimo de continuar aprendiendo y, también, aportar
           toda mi experiencia adquirida.
-          <br /> <br />
-          Considero que el cambio es un signo de capacidad de superación y, por
-          ello, creo que siempre sería capaz de aportar valor en la empresa y/o
-          trabajo en el que me encuentre. Mi objetivo principal es desarrollarme
-          profesionalmente y evolucionar en mi estudio, de modo que busco
-          oportunidades que me permitan hacerlo, al tiempo que trataré de
-          alinearme completamente con los objetivos de la empresa.
         </div>
         <a className="cv" href="/CV Nicolás Iñaki Duarte Front-End.pdf"  target="_blank" rel="noopener noreferrer">Mi Curriculum Vitae</a>
       </div>
