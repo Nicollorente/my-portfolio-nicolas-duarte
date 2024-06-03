@@ -154,7 +154,7 @@ section.home{
             font-weight: bold;
             line-height: 1em;
             padding-top: 0;
-            margin-top: -150px;
+            margin-top: -180px;
             & span{
                 background-image: linear-gradient(to right, #7BE728, #F3265F, #7F40AC, #7BE728);
                 background-size: 200% auto;
@@ -471,7 +471,7 @@ animation
           width: 100%;
         }
         .content {
-          width: 50%;
+          width: 100%;
           height: auto;
           margin-top: 180px;
           margin-bottom: 50px;
@@ -484,12 +484,12 @@ animation
 
         .content .des{
             font-size: 15px;
-            width: 50%;
+            width: 100%;
             height: 100%;
         }
 
         .front {
-          top: 52%;
+          top: 48%;
           font-size: 10px;
           margin-left: -55px;
         }
@@ -503,7 +503,7 @@ animation
           }
         }
         
-        .title{
+        /* .title{
             transform: none;
         }
     
@@ -511,15 +511,15 @@ animation
           width: 70%;
           font-size: 15px;
           transform: none;
-        }
+        } */
       
         .avatar {
-            grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
           padding: 0;
-          width: 30%;
+          width: 100%;
           height: 100%;
           padding-left: 0;
-          margin-left: -3.5%;
+          margin-left: -7%;
           margin-top: -400px;
         }
     
@@ -647,18 +647,27 @@ animation
     
     
     .projects{
-        display: flex;
+        grid-template-columns: 1fr;
         flex-direction: column;
-        margin: 0;
+        width: 70%;
+        margin-right: 90px;
         padding: 0;
     }
+
     .projects .title{
-        width: 10%;
-        margin: 10%;
+        width: 100%;
         display: flex;
         text-align: center;
         justify-content: center;
     }
+    .projects .des{
+        width: 100%;
+    }
+
+
+    /* .projects .des{
+        width: ;
+    } */
     
     /* .projects .des.animation{
         width: 30%;
@@ -672,8 +681,8 @@ animation
     
         .projects .list:nth-child(1n){
             grid-template-columns: 1fr;
-            width: 0;
-            margin-top: 100px;
+            width: 100%;
+            margin-top: 10px;
         } 
     
     .images{
@@ -682,7 +691,7 @@ animation
         justify-content: center;
         grid-column-start: 2;
         grid-column-end:2;
-        margin-left: -15px;
+        margin-left: -55px;
     }
     
     
@@ -697,8 +706,10 @@ animation
         .contacts{
             grid-template-columns: 1fr;
             padding-bottom: 300px;
-            width: 30%;
-            margin: 0;
+            width: 100%;
+            margin: -25px;
+            padding: 50px;
+            margin-bottom: 300px;
         }
     
     
