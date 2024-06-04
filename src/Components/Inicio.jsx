@@ -33,7 +33,7 @@ const Inicio = () => {
 
       <div className="avatar">
         <div className="card">
-          <img src="fotoNico.jpg" alt="FOTO NICO" />
+          <img src="foto-nico.jpeg" alt="FOTO NICO" />
         </div>
 
         <div className="data">
