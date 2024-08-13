@@ -452,11 +452,14 @@ animation
 @media screen and (max-width:480px){
 
 
+
+    #root{
+        width: 100%;
+    }
     body, html {
         height: auto;
         min-height: auto;
     }
-
 
     body {
         display: flex;
@@ -495,6 +498,13 @@ animation
 }
 
 /*HABILIDADES*/
+
+
+#habilidades .titulo-principal{
+    position: relative;
+    top: -60px;
+}
+
 body #habilidades .list{
     width: 350px;
     margin: 0 ;
@@ -502,8 +512,6 @@ body #habilidades .list{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    position: relative;
-    top: 60px;
 }
 #habilidades .list .item{
     width: 250px;

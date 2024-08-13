@@ -62,11 +62,13 @@ icon: "icon-css.png"
   return (
 
     <section id="habilidades" className="skills" >
+      <div className="titulo-principal">
       <div className="title" >
         Habilidades y Herramientas
       </div>
       <div className="des" >
       A continuación, presento las habilidades que he desarrollado durante mi período de estudios.
+      </div>
       </div>
       <div className="list" > 
         {
