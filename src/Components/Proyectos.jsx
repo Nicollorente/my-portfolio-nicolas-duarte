@@ -53,6 +53,7 @@ const Proyectos = () => {
   ]);
   return (
     <section id="proyectos" className="projects" >
+      <div className="titulo-principal">
       <div className="title">
         Proyectos
       </div>
@@ -62,6 +63,7 @@ const Proyectos = () => {
         de proyectos prácticos. A continuación, me gustaría compartir algunos de
         estos proyectos que reflejan mi experiencia y habilidades en acción.
         Desde mis inicios, hasta el presente.
+      </div>
       </div>
 
       <div className="list" >

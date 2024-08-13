@@ -21,7 +21,7 @@ const Inicio = () => {
           experiencia, he tomado la decisión de reorientar mi carrera
           profesional con el ánimo de continuar aprendiendo y, también, aportar
           toda mi experiencia adquirida.
-        </div>
+          <div className="container-cv">
         <a
           className="cv"
           href="/CV Nicolás Iñaki Duarte Front-End.pdf"
@@ -30,6 +30,8 @@ const Inicio = () => {
         >
           Mi Curriculum Vitae
         </a>
+        </div>
+        </div>
       </div>
 
       <div className="avatar">

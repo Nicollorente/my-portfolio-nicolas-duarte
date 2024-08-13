@@ -24,6 +24,7 @@ const Contacto = () => {
   ]);
   return (
     <section id="contacto" className="contacts">
+      <div className="titulo-principal">
       <div className="title" >
         Mis Contactos
       </div>
@@ -31,6 +32,7 @@ const Contacto = () => {
         Estoy disponible para oportunidades laborales y colaboraciones. Si
         estás interesado en mi trabajo o tienes alguna consulta, no dudes en
         contactarme a través de los siguientes medios.
+      </div>
       </div>
       <div className="list">
         {listaContactos.map((value, key) => (

@@ -449,6 +449,115 @@ animation
 /* MEDIA QUERYS */
 
 
+@media screen and (max-width:480px){
+
+
+    body, html {
+        height: auto;
+        min-height: auto;
+    }
+
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+
+
+/*INICIO*/
+
+#inicio{
+    height: 350vh;
+}
+
+#inicio .content .name{
+    margin-left: 20px;
+}
+    body .content  .container-cv{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+}
+
+#inicio .avatar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -10rem;
+}
+
+/*HABILIDADES*/
+body #habilidades .list{
+    width: 350px;
+    margin: 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+}
+#habilidades .list .item{
+    width: 250px;
+    margin-left: 5px;
+
+}
+#habilidades{
+    margin-top: 0;
+}
+
+/*PROYECTOS*/
+
+
+body #proyectos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#proyectos .titulo-principal {
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#proyectos .titulo-principal .list{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#proyectos .list .item .images{
+    width: 200px;
+}
+
+/*CONTACTOS*/
+
+body #contacto .titulo-principal{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+#contacto .list{
+    margin: 0 20px 0 60px;
+}
+
+}
+
+
+
 @media screen and (max-width:768px) {
     body::before{
         content: none;
@@ -616,7 +725,7 @@ animation
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            margin: 20px;
+            /* margin: 20px; */
             margin-top: 250px;
             padding-top: 0;
             width: 350px;

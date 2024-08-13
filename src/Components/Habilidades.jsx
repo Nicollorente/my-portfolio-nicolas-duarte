@@ -58,11 +58,9 @@ icon: "icon-css.png"
   des:"Aprendiendo"
 }
   ]);
-//   const refTab = useRef();
-//   const refDivs = useRef([]);
-//   CustomHooks(refTab,refDivs);
 
   return (
+
     <section id="habilidades" className="skills" >
       <div className="title" >
         Habilidades y Herramientas
