@@ -1,3 +1,4 @@
+
 const Inicio = () => {
   return (
     <section id="inicio" className="home">
@@ -6,7 +7,7 @@ const Inicio = () => {
           HOLA! SOY <span>NICOLÁS DUARTE</span>
         </div>
 
-        <div className="front">PROGRAMADOR WEB FRONT END</div>
+        {/* <div className="front">PROGRAMADOR WEB FRONT END</div> */}
         <br />
         <br />
         <div className="des">
