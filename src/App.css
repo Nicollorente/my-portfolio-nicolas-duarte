@@ -184,6 +184,8 @@ section.home{
             width: max-content;
             padding: 20px 30px;
             border-radius: 40px;
+            position: relative;
+            top: 60px;
         }
     }
     & .avatar{
@@ -452,14 +454,10 @@ animation
 @media screen and (max-width:480px){
 
 
-
-    #root{
-        width: 100%;
-    }
-    body, html {
-        height: auto;
-        min-height: auto;
-    }
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; }
 
     body {
         display: flex;
@@ -467,388 +465,220 @@ animation
         align-items: center;
         text-align: center;
         flex-direction: column;
+        width: 100%;
     }
 
-
+    header{
+        display: none;
+    }
 
 /*INICIO*/
 
 #inicio{
-    height: 350vh;
-}
-
-#inicio .content .name{
-    margin-left: 20px;
-}
-    body .content  .container-cv{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    top: 30px;
-}
-
-#inicio .avatar{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0;
+    width: 100%;
+    height: 100%;
+    margin: -130px 0 0 0;
     padding: 0;
-    position: relative;
-    top: -10rem;
-}
-
-/*HABILIDADES*/
-
-
-#habilidades .titulo-principal{
-    position: relative;
-    top: -60px;
-}
-
-body #habilidades .list{
-    width: 350px;
-    margin: 0 ;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-#habilidades .list .item{
-    width: 250px;
-    margin-left: 5px;
 
+#inicio .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
+
+#inicio .content .name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+    overflow-wrap: break-word;
+    word-break: break-word; 
+}
+
+#inicio .content .des{
+    width: 400px;
+    height: auto;
+    margin: 0;
+    padding: 0 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio .content .des .text{
+    font-size: 20px;
+}
+
+#inicio .avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#inicio .avatar .data ul{
+    width: 400px   ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/*HABILIDADES*/
+
 #habilidades{
-    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#habilidades .titulo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#habilidades .titulo-principal .title{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#habilidades .titulo-principal .des{
+    margin-top: 10px;
+    font-size: 16px;
+    width: 100%;
 }
 
 /*PROYECTOS*/
 
-
-body #proyectos{
+#proyectos {
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 100px;
+    align-items: center;
+    margin-top: 50px;
 }
 
-#proyectos .titulo-principal {
-    width: 350px;
+#proyectos .titulo-principal .title{
+    font-size: 30px;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
-#proyectos .titulo-principal .list{
+
+#proyectos .titulo-principal .des {
+    margin-top: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 50px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+    box-sizing: border-box;
+}
+
+#proyectos .list{
+    width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+#proyectos .list .item{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0 0 0 ; 
 }
 
 #proyectos .list .item .images{
-    width: 200px;
+    margin: 0;
 }
 
-/*CONTACTOS*/
+/*CONTACTO*/
 
-body #contacto .titulo-principal{
-    width: 400px;
+#contacto{
     display: flex;
-    justify-content: center;
     flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 50px 0 0 0;
+    padding: 0;
 }
 
+#contacto .titulo-principal{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contacto .titulo-principal .title{
+    font-size: 30px;
+}
+
+#contacto .titulo-principal .des{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    padding: 0 50px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+    box-sizing: border-box;
+    margin: 0;
+}
 
 #contacto .list{
-    margin: 0 20px 0 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+#contacto .list .item a{
+    width: 100%;
+    word-break: break-word;
+    white-space: normal;
+    box-sizing: border-box;
+    padding: 0 50px;
 }
-
-
-
-@media screen and (max-width:768px) {
-    body::before{
-        content: none;
-    }
-    
-    /* ANIMACION */
-    
-        .animation {
-            transition: none;
-            opacity: 1;
-            transform: none;
-            filter: none;
-        }
-    
-    /* HOME */
-    
-    
-        section.home {
-          padding: 60px;
-          padding-top: 70px;
-          grid-template-columns: 1fr;
-          height: 100%;
-          width: 100%;
-        }
-        .content {
-          width: 100%;
-          height: auto;
-          margin-top: 180px;
-          margin-bottom: 50px;
-          margin-left: -48px;
-          font-size: 11px;
-        }
-        .name{
-            width: 60%;
-        }
-
-        .content .des{
-            font-size: 15px;
-            width: 100%;
-            height: 100%;
-        }
-
-        .front {
-          top: 48%;
-          font-size: 10px;
-          margin-left: -55px;
-        }
-      
-        @keyframes typing {
-          from {
-            width: 0;
-          }
-          to {
-            width: 160px;
-          }
-        }
-        
-        /* .title{
-            transform: none;
-        }
-    
-        .des {
-          width: 70%;
-          font-size: 15px;
-          transform: none;
-        } */
-      
-        .avatar {
-        grid-template-columns: 1fr;
-          padding: 0;
-          width: 100%;
-          height: 100%;
-          padding-left: 0;
-          margin-left: -7%;
-          margin-top: -400px;
-        }
-    
-        .card {
-            margin-top: 150px;
-            & img{
-                max-width: 100%; 
-                max-height: 800px; 
-                object-fit: cover;
-                object-position: top;
-                clip-path: polygon(81% 0, 100% 18%, 100% 100%, 0 100%, 0 0);
-            }
-            .data {
-                width: 100%;
-                height: 100%;
-                display: flex;
-              }
-        }
-        .data ul li {
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        text-align: center;
-        justify-content:center;
-        white-space: nowrap;
-        font-size: 13px;
-        margin-right: 30%;
-        }
-    
-    
-    
-    /* NAVBAR */
-    nav.links{
-        display: none;
-    }
-    /* .icon-bar{
-        position: absolute;
-        margin-top: 10px;
-        left: 80px;
-    }
-    
-    .links{
-        width: 15%;
-        position: absolute;
-        transform: translateX(-1000px);
-        height: 300px;
-        transition:0.5s;
-        margin-left: auto;
-        margin-right: auto;
-        ul{
-            display: block;
-            width: 10px;
-            padding-top: 50px;
-            margin-left: -15px;
-    
-        }li{
-            width: 0;
-            margin: 0;
-            padding: 12px;
-        }
-    }
-     */
-
-    .links.active{
-        width: 15%;
-        margin-left:80px;
-        display: block;
-        position: absolute;
-        left: 0;
-        right: 0;
-        text-align: center;
-        background-color: #be047d;
-        height: 300px;
-        transform: translateX(0px);
-        transition: 0.6s;
-        border-radius: 6px;
-        ul{
-            filter: none;
-            padding-top: 40px;
-            margin-left: -15px;
-            li{
-                padding: 12px;
-            }
-        }
-    }
-    
-    /*HABILIDADES*/
-    
-        .skills {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            /* margin: 20px; */
-            margin-top: 250px;
-            padding-top: 0;
-            width: 350px;
-        }
-        .skills .title {
-            width: 300px;
-            display: flex;
-            text-align: center;
-            justify-content: center;
-        }
-        .skills .des{
-            font-size: 12px;
-            width: 100%;
-    
-        }
-    
-        .skills .list {
-                width: 100%;
-                height: 100%;
-                background-image: linear-gradient(-45deg, red, blue);
-                border-radius: 20px; 
-                background-size: 200% auto;
-        }
-    
-        .skills .item {
-            width: 80%;
-            margin-left: -15px;
-        }
-    
-    
-    
-    /* PROYECTOS */
-    
-    
-    .projects{
-        grid-template-columns: 1fr;
-        flex-direction: column;
-        width: 70%;
-        margin-right: 90px;
-        padding: 0;
-    }
-
-    .projects .title{
-        width: 100%;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-    }
-    .projects .des{
-        width: 100%;
-    }
-
-
-    /* .projects .des{
-        width: ;
-    } */
-    
-    /* .projects .des.animation{
-        width: 30%;
-        display: inline;
-        justify-content: center;
-        text-align: center;
-        font-size: 14px;
-        margin-top: -120px;
-        margin-bottom: -10px;
-    } */
-    
-        .projects .list:nth-child(1n){
-            grid-template-columns: 1fr;
-            width: 100%;
-            margin-top: 10px;
-        } 
-    
-    .images{
-        width:300px;
-        display: flex;
-        justify-content: center;
-        grid-column-start: 2;
-        grid-column-end:2;
-        margin-left: -55px;
-    }
-    
-    
-        .list .content{
-            display: none;
-        }
-    
-    
-    /* CONTACTO */
-    
-    
-        .contacts{
-            grid-template-columns: 1fr;
-            padding-bottom: 300px;
-            width: 100%;
-            margin: -25px;
-            padding: 50px;
-            margin-bottom: 300px;
-        }
-    
-    
-        .contacts .des{
-            font-size: 13px;
-            width: 100%;
-    
-        }
-    
-        .contacts .list{
-            grid-template-columns: 1fr;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-    
-    }
+}
 
 
 

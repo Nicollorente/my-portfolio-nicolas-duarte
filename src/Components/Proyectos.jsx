@@ -52,7 +52,7 @@ const Proyectos = () => {
     },
   ]);
   return (
-    <section id="proyectos" className="projects" >
+    <section id="proyectos" className="projects">
       <div className="titulo-principal">
       <div className="title">
         Proyectos
