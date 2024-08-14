@@ -6,8 +6,9 @@ const Inicio = () => {
           <div className="name">
             HOLA! SOY <span>NICOLÁS DUARTE</span>
           </div>
-
-        {/* <div className="front">PROGRAMADOR WEB FRONT END</div> */}
+          <div className="content-front">
+        <div className="front">PROGRAMADOR WEB FRONT END</div>
+        </div>
         <br />
         <br />
         <div className="des">
