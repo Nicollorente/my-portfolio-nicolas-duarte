@@ -51,7 +51,7 @@ main{
 
 header{
     position: fixed;
-    max-width: 100%;
+    width: 100%;
     height: 60px;
     top: 0;
     box-sizing: border-box;
@@ -62,9 +62,8 @@ header{
  header,nav{
     display: flex;
     justify-content: center;
+    align-items: center;
     width: 100%;
-
-
 }
 
  nav ul {
@@ -450,6 +449,172 @@ animation
 
 /* MEDIA QUERYS */
 
+@media screen and (max-width: 1020px){
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    header {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center; 
+    }
+    
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    nav {
+        width: 70%;
+        display: flex;
+        justify-content: space-between; 
+        margin-left: 300px;
+    }
+    
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+    }
+
+    ul {
+        padding: 0;
+        display: flex; 
+        justify-content: start;
+        width: 100%; 
+    }
+
+    ul li {
+        list-style-type: none; 
+        text-align: center; 
+    }
+
+
+
+    /*INICIO*/
+
+    #inicio .front{
+        position: relative;
+        top: 30px;
+        left: 100px;
+        }
+
+    #inicio{
+        width: 100%;
+        height: 100%;
+        margin: 50px 0 0 0; 
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    #inicio .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 40%;
+        height: 100%;
+        margin:0 ;
+        padding: 0;
+    }
+    
+    #inicio .content .name{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: left;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        font-size: 60px;
+    }
+    
+    #inicio .content .des{
+        width: 400px;
+        height: auto;
+        margin: 0;
+        padding: 0 ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #inicio .content .des .text{
+        font-size: 20px;
+    }
+    
+    #inicio .avatar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+    
+    #inicio .avatar .data{
+        width: 100%;
+        margin: 0;
+    }
+    
+    #inicio .avatar .data ul{
+        width: 100%   ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /*HABILIDADES*/
+
+    #habilidades{
+        width: 80%;
+    }
+
+    /*PROYECTOS*/
+
+    #proyectos{
+        width: 80%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+        
+    
+
+    #proyectos .list .item .images img{
+        width: 100%;
+    }
+
+    #contacto .titulo-principal{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    }
 
 @media screen and (max-width:600px){
 
@@ -765,106 +930,6 @@ section.skills {
 
 
 
-/* @media screen and (max-width: 1020px){
-
-    nav{
-        width: 100%;
-        margin-right: auto;
-        margin-left: -12%;
-        display: flex;
-        justify-content: space-between;
-        a{
-            font-size: 25px;
-        }
-    }
-
-    .content{
-        font-size: 13px;
-    }
-
-    .content .des{
-        width: 70%;
-        font-size: 24px;
-    }
-
-    .front{
-        position: absolute;
-        top: 500px;
-        margin-left: -40px;
-    }
-
-.home{
-    grid-template-columns: 1fr;
-    padding-left: 10px;
-    margin-top: 200px;
-    .avatar{
-        grid-template-columns: 1fr;
-        width: 60%;
-        margin-top: -400px;
-        .data{
-            margin-left: -400px;
-            font-size: 18px;
-            display: inline-block;
-            ul{
-                width: 400px;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-start;
-                text-align: center;
-            }
-            li{
-                width: 300px;
-                padding-left: 0px;
-            }
-            h3{
-                width: 200px;
-                margin-left: 50px;
-            }
-
-        }
-    }
-}
-
-
-.skills{
-    grid-template-columns: 1fr;
-    width: 60%;
-    margin-left: 10px;
-}
-
-.projects{
-    width: 60%;
-    margin-left: 0;
-    .title{
-        margin-bottom: 40px;
-    }
-    .des{
-        font-size: 22px;
-        width: 100%;
-        padding:0px;
-        display: flex;
-        text-align: center;
-    }
-
-}
-
-.projects .list:nth-child(1n){
-    grid-template-columns: 1fr;
-    width: 95%;
-    margin-top: 100px;
-} 
-
-.images{
-width:500px;
-display: flex;
-justify-content: center;
-grid-column-start: 2;
-grid-column-end:2;
-margin-left: -15px;
-}
-
-
-} */
 
 
 
