@@ -104,10 +104,12 @@ li a:hover{
 
 } */
 
+
+
 .front {
     position: absolute;
     top: 76%;
-    left: 160px;
+    left: 200px;
     transform: translate(-50%, -50%);
     overflow: hidden;
     white-space: nowrap;
