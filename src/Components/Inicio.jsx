@@ -13,7 +13,7 @@ const Inicio = () => {
         <br />
         <div className="des">
           <div className="text">
-          Desarrollador Front-End con experiencia en proyectospersonales y
+          Desarrollador Front-End con experiencia en proyectos personales y
           académicos, especializado en React y tecnologías web modernas.
           Apasionado por crear experiencias de usuario atractivas y eficientes.
           Busco oportunidades para aplicar mis habilidades en un entorno
