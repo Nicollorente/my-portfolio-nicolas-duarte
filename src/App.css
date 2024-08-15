@@ -885,7 +885,7 @@ section.skills {
     word-break: break-word;
     white-space: normal;
     box-sizing: border-box;
-    margin: 0;
+    margin: 10px 0 0 0;
 }
 
 #contacto .list{
