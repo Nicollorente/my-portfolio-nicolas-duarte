@@ -29,6 +29,14 @@ const Proyectos = () => {
     },
 
     {
+      nombre: "Clima Ozono",
+      des: "Desarrollé una aplicación interactiva de clima meteorológico que permite a los usuarios buscar el clima de cualquier ciudad o provincia. La aplicación, ajusta dinámicamente el video de fondo según las condiciones meteorológicas actuales de la ubicación buscada. Dependiendo del clima detectado (soleado, lluvioso o nublado), el fondo de la aplicación cambia automáticamente para reflejar la situación climática, proporcionando una experiencia de usuario inmersiva y contextualizada. Este proyecto integra datos en tiempo real de la API de OpenWeatherMap para asegurar la precisión de la información presentada.",
+      img: "project-clima-ozono.png",
+      link:"https://clima-ozono.netlify.app/",
+      tec: "Tecnologías: HTML | CSS | JAVASCRIPT"
+    },
+
+    {
       nombre: "Charrua Sports",
       des: "Desarrollé un e-commerce de ropa como proyecto personal, en el que los usuarios pueden explorar y seleccionar prendas. Este proyecto demuestra mi capacidad para diseñar y desarrollar plataformas de comercio electrónico funcionales.",
       img: "charrua-sports.jpeg",
