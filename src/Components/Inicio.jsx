@@ -27,7 +27,7 @@ const Inicio = () => {
           <div className="container-cv">
             <a
               className="cv"
-              href="/CV Nicolás Iñaki Duarte Front-End.pdf"
+              href="/CV Nicolás Iñaki Duarte Front-End.pdf.png "
               target="_blank"
               rel="noopener noreferrer"
             >
