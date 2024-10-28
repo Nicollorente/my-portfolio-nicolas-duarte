@@ -50,7 +50,7 @@ const Inicio = () => {
             </li>
             <li>
               <h3>Edad:</h3>
-              <p>21 Años</p>
+              <p>22 Años</p>
             </li>
             <li>
               <h3>Nacionalidad:</h3>
